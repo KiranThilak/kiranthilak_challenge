@@ -1,6 +1,12 @@
 import React from 'react'
+import { useState } from 'react';
 
 const Checkout = () => {
+const [coke, setCoke] = useState (0);
+const handleClick = () => {
+    
+}
+
   return (
     <div className='summary'>
         <h3>Order Summary</h3>
