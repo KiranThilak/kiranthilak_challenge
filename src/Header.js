@@ -4,7 +4,7 @@ import {IoRestaurantOutline} from 'react-icons/io5';
 
 const Header = () => {
   return (
-    <header >
+    <header className='header'>
       <IoRestaurantOutline />
      
         <h2>Food,s Restaurant</h2>
