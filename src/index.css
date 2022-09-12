@@ -35,10 +35,16 @@ right: 300px;
   left: 200px ;
   right: 200px;
 }
-.card{
+.main {
+          
+  display: flex;          
+  flex-direction: column;
   width: 200px;
   border-radius: 9px;
   margin: 20px;
+  font-size: 12px;
+ 
+  
  
 }
 
@@ -57,4 +63,59 @@ right: 300px;
   cursor: pointer;
   font-size:13px ;
   margin-left: 5px;
+}
+
+.blue-button {
+  border-radius:3px;
+  background-color: royalblue;
+ width: 40px;
+ 
+  font-family: roboto;
+  border:none;
+  cursor: pointer;
+  font-size:13px ;
+  margin-left: 5px;
+
+}
+.pink-button {
+  border-radius:3px;
+  background-color: red;
+ width: 40px;
+ 
+  font-family: roboto;
+  border:none;
+  cursor: pointer;
+  font-size:13px ;
+  margin-left: 5px;
+
+}
+.save-button {
+  border-radius:3px;
+  background-color: royalblue;
+ width: 100px;
+ 
+  font-family: roboto;
+  border:none;
+  cursor: pointer;
+  font-size:13px ;
+  margin-left: 5px;
+  text-align: center;
+  display: inline-block
+
+}
+.cancel-button {
+  border-radius:3px;
+  background-color: grey;
+ width: 60px;
+ 
+
+ 
+  font-family: roboto;
+  border:none;
+  cursor: pointer;
+  font-size:13px ;
+  margin-left: 5px;
+  text-align: center;
+  display: inline-block
+
 }

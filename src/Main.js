@@ -1,8 +1,9 @@
 import React from 'react'
-import burger from "./assets/burger.jpeg"
+
 
 const Main = (props) => {
   return (
+    <main>
     <div className='card'>
         <img src={props.img} className="card-image"/>
         <div className='card-stats'>
@@ -10,11 +11,15 @@ const Main = (props) => {
             <p>Price:{props.price}</p>
             
             <button>+</button>
-            <button>-</button>
+            <button style=
+      {{
+        background: 'grey',
+       }}>-</button>
             
         </div>
 
     </div>
+    </main>
   )
 }
 
