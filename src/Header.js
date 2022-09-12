@@ -12,10 +12,14 @@ const Header = () => {
         marginRight: "10px",
       }} />
      
-        <h2>Food,s Restaurant</h2>
+        <h2 style=
+      {{
+        
+        fontFamily: "sans-serif",
+      }}>Food,s Restaurant</h2>
 
     </header>
-    <main>
+    <main className='menu-1'>
       <h1 style=
       {{
         fontSize: '40px',
