@@ -13,7 +13,7 @@ code {
 }
 
 .header {
-  background-color: royalblue;
+  background-color: #3f51b5;
   display: flex;
   align-items: center;
   height: 30px;
@@ -55,7 +55,7 @@ right: 300px;
 }
 .card button {
   border-radius:3px;
-  background-color: royalblue;
+  background-color: #3f51b5;
  width: 40px;
  
   font-family: roboto;
@@ -67,9 +67,9 @@ right: 300px;
 
 .blue-button {
   border-radius:3px;
-  background-color: royalblue;
+  background-color: #3f51b5;
  width: 40px;
- 
+ color: whitesmoke;
   font-family: roboto;
   border:none;
   cursor: pointer;
@@ -79,9 +79,9 @@ right: 300px;
 }
 .pink-button {
   border-radius:3px;
-  background-color: red;
+  background-color: #C44470;
  width: 40px;
- 
+ color: whitesmoke;
   font-family: roboto;
   border:none;
   cursor: pointer;
@@ -91,9 +91,9 @@ right: 300px;
 }
 .save-button {
   border-radius:3px;
-  background-color: royalblue;
+  background-color: #3f51b5;
  width: 100px;
- 
+ color: whitesmoke;
   font-family: roboto;
   border:none;
   cursor: pointer;
@@ -105,9 +105,9 @@ right: 300px;
 }
 .cancel-button {
   border-radius:3px;
-  background-color: grey;
+  background-color: rgb(238, 229, 229);
  width: 60px;
- 
+ color:  #3f51b5;
 
  
   font-family: roboto;
@@ -118,4 +118,10 @@ right: 300px;
   text-align: center;
   display: inline-block
 
+}
+
+.summary {
+  position: relative;
+  text-align: center;
+  top: 200px;
 }
