@@ -35,3 +35,25 @@ right: 300px;
   left: 200px ;
   right: 200px;
 }
+.card{
+  width: 200px;
+  border-radius: 9px;
+ 
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 5px;
+  
+}
+.card button {
+  border-radius:3px;
+  background-color: royalblue;
+ width: 40px;
+ 
+  font-family: roboto;
+  border:none;
+  cursor: pointer;
+  font-size:13px ;
+  margin-left: 5px;
+}
