@@ -25,7 +25,7 @@ import { useState } from 'react';
   }
 
   return (
-    <div className='summary'>
+    <div className='summarys'>
         <h3>Order Summary.</h3>
 
         <h4>Coke:{count1}  </h4>
