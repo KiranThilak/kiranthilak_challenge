@@ -9,18 +9,18 @@ function App() {
   const cards = data.map(item => {
     return (
         
-         {/* <Main 
+          <Main 
          image={item.image}
          name = {item.name}
          price = {item.price}
    
-         /> */}
+         /> 
     )
   })
   return (
     <div className="App">
-     {/*  <Header /> */}
-     {/* {cards} */}
+      <Header /> 
+     {cards} 
 
      <Checkout />
 
