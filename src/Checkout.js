@@ -26,7 +26,7 @@ import { useState } from 'react';
 
   return (
     <div className='summary'>
-        <h3>Order Summary</h3>
+        <h3>Order Summary.</h3>
 
         <h4>Coke:{count1}  </h4>
         <button className='blue-button' onClick={add1}>+</button>
